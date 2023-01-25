@@ -1,0 +1,14 @@
+echo "-------Build Started--------------"
+cat <<EOF > index.html
+<html>
+<body bgcolor="gray">
+<center>
+<h2><font color=blue>Hello from ADV-IT! gevorg</font></h2>
+<h3>Jenkins Lessons!</h3><br>
+<font color=yellow>www.adv-it.net</font>
+
+</center>
+</body>
+</html>
+EOF
+echo "-------Build Finished-------------"
