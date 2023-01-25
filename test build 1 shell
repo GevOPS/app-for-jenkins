@@ -1,0 +1,11 @@
+echo "-------Test Started--------------"
+result=`grep "Hello" index.html | wc -l`
+echo "$result"
+if [ "$result" -eq "1" ]
+then
+	echo "Test passed"
+else
+	echo "test Failed"
+    exit 1
+fi
+echo "-------Test Finished--------------"
